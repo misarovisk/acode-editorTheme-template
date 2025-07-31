@@ -9,7 +9,7 @@ const { editor } = editorManager
  * monokai
  */
 // only modify this name and nothing else 
-const themeName = "vscode-dark"
+const themeName = "moon-dark"
 // go to style.scss and change colors there
 
 ace.define(`ace/theme/${themeName}.css`, ["require", "exports", "module"], function (require, exports, module) { module.exports = style }),
